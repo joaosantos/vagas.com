@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap');
+
+body { font-family: 'Roboto', sans-serif; background-color: rgb(102, 51, 153)}
+
+.container {
+	background-color: rgb(242, 242, 242);
+	width: 30%;
+}
+
+/* ESTILIZAÇÃO DO HEADER
+====================== */
+header {
+	background: url('../images/header.png');
+	background-size: cover;
+	background-position: center;
+	height: 25vh;
+}
+h1 {
+	text-decoration: none;
+	font-size: 22px;
+	color: #fff;
+	width: 300px;
+	padding: 20px;
+}
+h1 span {
+	font-weight: 100;
+}
+
+form {
+	padding: 20px;
+}
